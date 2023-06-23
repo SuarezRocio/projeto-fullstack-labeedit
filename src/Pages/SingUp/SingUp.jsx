@@ -65,9 +65,10 @@ function SingUp() {
             <Input placeholder="ingrese el nombre" type="text" onChange={(e) => { setName(e.target.value) }} />
 
             <Label4>Email</Label4>
-            <input placeholder="ingrese el email" type="text" onChange={(e) => { setEmail(e.target.value) }} />
+            <Input placeholder="ingrese el email" type="text" onChange={(e) => { setEmail(e.target.value) }} />
             <Label4>Senha</Label4>
-            <input placeholder="ingrese la senha" type="password" onChange={(e) => { setPaswword(e.target.value) }} />
+            <p> sua senha tem que ter letras, números e caracteres especiais</p>
+            <Input placeholder="ingrese la senha" type="password" onChange={(e) => { setPaswword(e.target.value) }} />
 
             <Label4>Confirmation Senha</Label4>
             <Input placeholder="ingrese la senha" type="password" onChange={(e) => { setPaswword(e.target.value) }} />
