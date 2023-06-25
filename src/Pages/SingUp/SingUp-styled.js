@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-//import styled from '@emotion/styled'
 
 export const Img = styled.img`{
     display:flex;
@@ -67,15 +66,6 @@ export const ButtonEntrar = styled.button`{
     heigth:10px;
 }`
 
-/**display:flex;
-   justify-content: flex-end;
-    */
-
-/**    display:flex;
-    flex-direction:column;
-    width:90vw;
-    gap: 1rem;
- */
 
 export const Button = styled.button`{
     width:50vw;
@@ -89,10 +79,6 @@ export const Div2 = styled.div`{
     flex-direction: row;
 }`
 
-/**    justify-content: center;
-    align-items: center;
-    gap: 5px;
- */
 
 export const Label4 = styled.label`{
     display:flex;
@@ -137,118 +123,3 @@ export const H2 = styled.h2`{
     background-color: rgb(0, 0, 0);
     border: none;
 }`
-/**display: flex;
-    justify-content: center; */
-
-/**  display: flex;
-    justify-content: space-around;
-   */
-
-
-
-
-/*
-export const Img = styled.img`{
-    width: 3.1vw;    
-
-}`
-
-export const Div = styled.div`{
-display:flex;
-flex-direction:column;
-flex: 1;    
-jutify-content: center;   
-align-items: center;
-}`
-
-export const P = styled.p`{
-    font-size: 40px;    
-    font-weigth:300px;
-}`
-
-export const Div1 = styled.div`{
-    font-size: 16px;    
-    font-weigth:300px;
-}`
-
-export const Input = styled.input`{
-    heigth: 60px;
-    width: 100%;
-}`
-
-
-export const Form = styled.form`{
-    align-items:center;
-    display:flex;
-    flex-direction:column;
-    width:80vw;
-    gap: 1rem;
-}`
-
-export const P1 = styled.p`{
-    align-items:center;
-    display:flex;
-    flex-direction:column;
-    width:90vw;
-    gap: 1rem;
-}`
-
-export const P3 = styled.p`{
-    display:flex;
-   justify-content: flex-end;
-   widht: 2vw;
-   heigth:10px;
-}`
-/**    display:flex;
-    flex-direction:column;
-    width:90vw;
-    gap: 1rem;
- */
-/*
-export const Button = styled.button`{
-    width:50vw;
-    background:linear-gradient(90deg, #FF6489 0%, #F9B24E 100%);
-    border-radius:10px;
-    border:none;
-    color: white;
-}`
-export const Div2 = styled.div`{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}`
-
-
-export const Button2 = styled.button`{
-    width:90vw;
-    border-radius:10px;
-    border: 1px solid #FE7E02;
-    color: #FE7E02;
-    background-color: white;
-}`
-
-
-export const InputCheck = styled.input`{
-    heigth: 5px;
-    width: 5%;
-}`
-
-
-export const P2 = styled.p`{
-    width: 40vw;
-}`
-
-
-export const Nav = styled.div`{
- 
-    height: 40px;
-    width: 90vw;
-    background-color: #EDEDED;
-}`
-/**display: flex;
-    justify-content: center; */
-
-/**  display: flex;
-    justify-content: space-around;
-   */

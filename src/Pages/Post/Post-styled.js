@@ -2,7 +2,6 @@
 import styled from "styled-components";
 
 
-//import styled from '@emotion/styled'
 
 export const Section = styled.section`{
     display: flex;
@@ -26,17 +25,10 @@ export const Img1 = styled.img`{
 }`
 
 
-/**
- * 
-    background-color: rgba(135, 129, 129, 0.202); 
- *  flex-wrap: wrap;
-    border: 1px solid rgba(234, 41, 41, 0.624); */
-
 export const Input = styled.div`{
     width: 10rem;
 }`
 
-//flex-direction: column;
 
 export const H2 = styled.h2`{
     display: flex;
@@ -60,14 +52,6 @@ export const Div4 = styled.div`{
     border-radius: 5%;
 }`
 
-/**    flex-direction: column;
-
-   background-color: rgba(135, 129, 129, 0.202); 
- * background-color: rgba(121, 117, 112, 0.378);
-     */
-
-/** 
-    background-color: rgba(255, 210, 133, 0.465); */
 
 export const H3 = styled.h3`{
     display: flex;
@@ -155,86 +139,8 @@ export const Div5 = styled.div`{
     flex-wrap: wrap;
 }`
 
-/**  border : 1px solid black; */
-
 export const Button3 = styled.button`{
  margin: 1rem;
 }`
 
 
-/*
-vector comentario
-position: absolute;
-left: 10.01%;
-right: 10%;
-top: 15%;
-bottom: 10%;
-
-background: #6F6F6F;
-*/
-/**
- * vector flecha para abajo
- 
-position: absolute;
-left: 100%;
-right: -70.71%;
-top: 50%;
-bottom: -20.71%;
-
-background: #6F6F6F;
-transform: rotate(135deg);
- */
-
-
-/**
- * vector flecha para arriba
- 
-position: absolute;
-left: 0%;
-right: 29.29%;
-top: 50%;
-bottom: -20.71%;
-
-background: #6F6F6F;
-transform: rotate(-45deg);
- */
-
-/**
- * numero de likes
-width: 18px;
-height: 12px;
-
-font-family: 'IBM Plex Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 9.56098px;
-line-height: 12px;
-text-align: center;
-
-color: #6F6F6F;
-
-
-/* Inside auto layout 
-flex: none;
-order: 1;
-flex-grow: 0; */
-
-/**
- * numero de comentarios
-width: 12px;
-height: 12px;
-
-font-family: 'IBM Plex Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 9.56098px;
-line-height: 12px;
-text-align: center;
-
-color: #6F6F6F;
-
-
-/* Inside auto layout 
-flex: none;
-order: 1;
-flex-grow: 0; */

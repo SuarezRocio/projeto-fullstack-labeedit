@@ -10,6 +10,47 @@ export const Section = styled.section`{
 
 
 
+export const Section1 = styled.section`{
+    width: 21rem;
+    height: 80rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: rgba(255, 203, 126, 0.378);
+}`
+
+export const Img1 = styled.img`{
+    width: 1rem;
+}`
+
+
+export const Input = styled.div`{
+    width: 10rem;
+}`
+
+
+export const H2 = styled.h2`{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(248, 248, 248);
+    font-size: 16px;    
+    font-weigth:300px;
+    border: none;
+    margin: 2.5rem;
+}`
+
+export const Div4 = styled.div`{
+    width: 20rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border: 1px solid rgba(234, 41, 41, 0.539); 
+    background-color: rgb(248, 248, 248);
+    margin: 0.5rem;
+    border-radius: 5%;
+}`
+
 
 export const H3 = styled.h3`{
     display: flex;
@@ -47,7 +88,6 @@ export const P3 = styled.p`{
         /* identical to box height */
         text-align: center;
     }`
-
 
 export const Div = styled.div`{
     display:flex;
@@ -93,3 +133,12 @@ export const Div2 = styled.div`{
     position: relative;
 }`
 
+export const Div5 = styled.div`{
+    display: flex ;
+    flex-wrap: wrap;
+}`
+
+
+export const Button3 = styled.button`{
+ margin: 1rem;
+}`

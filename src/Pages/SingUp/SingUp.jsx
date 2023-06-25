@@ -14,7 +14,6 @@ function SingUp() {
 
 
   function handleSubmit(e) {
-    //const navigate = useNavigate()
 
     console.log("hola mundo")
 
@@ -46,8 +45,6 @@ function SingUp() {
   }
   const navigate = useNavigate()
 
-  {/* {loading ? <H2>cargando...</H2> : <>*/ }
-  {/* </>}*/ }
 
   return (
     <Div>
