@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-//import styled from '@emotion/styled'
 export const Img = styled.img`{
     width: 3.1vw;    
 
@@ -54,11 +53,6 @@ export const P1 = styled.p`{
     gap: 1rem;
 }`
 
-/**    display:flex;
-    flex-direction:column;
-    width:90vw;
-    gap: 1rem;
- */
 
 export const Button = styled.button`{
     width:50vw;
@@ -83,12 +77,6 @@ export const Button2 = styled.button`{
     background-color: white;
 }`
 
-/*
-export const InputCheck = styled.input`{
-    heigth: 5px;
-    width: 5%;
-}`
-*/
 
 export const P2 = styled.p`{
     width: 40vw;

@@ -16,24 +16,8 @@ function Login() {
   const [password, setPaswword] = useState("")
   const [loading, setLoading] = useState(false)
 
-  //const emailito = "sofia@email.com"
-  //const passwordcita = ""
-
-  /*const bodyexample =
-   {
-     "email": "sofia@email.com",
-     "password": "S45456d478L"
-   }
- 
-   axios
-     .post("https://deploy-labeedit-back.onrender.com/users/login", bodyexample)
-     .then((res) => {
-       console.log(res.data)
-     })
- */
 
   function handleLogin(e) {
-    //const navigate = useNavigate()
 
     e.preventDefault()
 
@@ -50,15 +34,6 @@ function Login() {
       "password": password
     }
 
-    /*axios
-      .post("https://deploy-labeedit-back.onrender.com/users/login", body)
-      .then((res) => {
-        console.log(res.data)
-      })
-      **/
-    console.log(password)
-    console.log(email)
-    console.log(body)
 
     setLoading(true)
 
@@ -78,15 +53,6 @@ function Login() {
 
   }
   const navigate = useNavigate()
-
-  /**Promise.all([p1, p2, p3, p4, p5])
-    .then((values) => {
-      console.log(values);
-    })
-    .catch((error) => {
-      console.error(error.message);
-    }); */
-
 
   return (
 

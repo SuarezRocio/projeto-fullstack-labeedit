@@ -1,6 +1,4 @@
-
 import styled from "styled-components";
-
 
 
 export const Section = styled.section`{
@@ -23,6 +21,7 @@ export const Section1 = styled.section`{
 export const Img1 = styled.img`{
     width: 1rem;
 }`
+
 
 
 export const Input = styled.div`{
@@ -142,5 +141,3 @@ export const Div5 = styled.div`{
 export const Button3 = styled.button`{
  margin: 1rem;
 }`
-
-
